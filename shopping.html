@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Generics | Store</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store1.js" async></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container content-section">
+        <h2 class="section-header">T-shirt</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Messi</span>
+                <img class="shop-item-image"
+                    src="https://images.footballfanatics.com/paris-saint-germain/paris-saint-germain-x-jordan-home-stadium-shirt-2021-22-kids-with-messi-30-printing_ss4_p-12087674+u-1baiz4oxmm1mrakyeyfg+v-c775cc693b18420c919ceeb262b7a051.jpg?_hv=1&w=600">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <span class="like" ><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Ronaldo</span>
+                <img class="shop-item-image"
+                    src="https://images.footballfanatics.com/manchester-united/manchester-united-home-shirt-2021-22-womens-with-ronaldo-7-printing_ss4_p-12093046+u-10bmfhbe7d6x0d2swmnt+v-7ff2aeb93d8040b3bbf082ab8c708dbd.jpg?_hv=1&w=900">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <span class="like"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">mbappé</span>
+                <img class="shop-item-image"
+                    src="https://images.footballfanatics.com/paris-saint-germain/maillot-psg-jordan-domicile-vapor-match-21/22-enfant-avec-flocage-mbapp%C3%A9-7_ss4_p-12066077+u-1cmj1hupc1a60s2u9ed3+v-841d19a12b424e389f2ac3137557afee.jpg?_hv=1&w=600">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <span class="like"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Ramos</span>
+                <img class="shop-item-image"
+                    src="https://www.football-inside.net/7788-tm_thickbox_default/maillot-psg-domicile-sergio-ramos-2021-2022.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <span class="like"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">Other</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Jacket</span>
+                <img class="shop-item-image"
+                    src="data:image/jpeg;base64,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">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <span class="like"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">trousers</span>
+                <img class="shop-item-image"
+                    src="https://www.cdiscount.com/pdt2/7/7/2/1/700x700/1473772/rw/nike-pantalon-de-football-psg-2020-enfant-bleu.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6.99</span>
+                    <span class="like"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <footer class="main-footer">
+
+    </footer>
+</body>
+
+</html>
